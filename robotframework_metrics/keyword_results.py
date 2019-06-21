@@ -1,5 +1,7 @@
 from robot.api import ResultVisitor
-
+import sys
+reload(sys)
+sys.setdefaultencoding('utf8')
 
 class KeywordResults(ResultVisitor):
 
